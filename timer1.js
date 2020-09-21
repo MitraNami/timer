@@ -1,10 +1,10 @@
-//will beep after a specified amount of time has passed. The user can specify 
+//will beep after a specified amount of time has passed. The user can specify
 //an unlimited number of alarms using command line arguments
 
-const alarmClock = function(array) {
+const alarmClock = function(alarms) {
   for (let alarm of alarms) {
     if (isNaN(Number(alarm)) || Number(alarm) < 0) {
-      continue
+      continue;
     } else {
       setTimeout(() => console.log('Beep!'), alarm * 1000);
     }
