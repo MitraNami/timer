@@ -40,3 +40,35 @@ function* range(start, end) {
   }
 }
 
+
+
+// const stdin = process.stdin;
+// const stdout = process.stdout;
+
+// stdin.setRawMode(true);
+// stdin.setEncoding('utf-8');
+
+
+// stdin.on('data', key => {
+//   if (key === '\u0003') {
+//     stdout.write('Thanks for using me!\n');
+//     process.exit();
+//   } else if (key === 'b') {
+//     beep();
+//   } else {
+//     makeBeep(key);
+//   }
+
+// });
+
+
+// const beep = () => console.log('Beep!');
+
+// const makeBeep = time => {
+//   const delay = Number(time);
+//   if (!isNaN(delay) && delay > 0) {
+//     stdout.write(`Setting timer for ${delay} seconds.\n`);
+//     setTimeout(beep, delay * 1000);
+//   }
+// };
+
